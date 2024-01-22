@@ -1,6 +1,7 @@
 package Recursion;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class SubSet {
      public static int possibleSubSet(int n, ArrayList<Integer> subSet) {
@@ -21,6 +22,7 @@ public class SubSet {
 
     public static void findSubSet(int n, ArrayList<Integer> subSet) {
         if (n == 0) {
+
             for (int i = 0; i < subSet.size(); i++) {
                 System.out.print(subSet.get(i) + " ");
             }
